@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
     font-size: 14px;
     text-align: center;
+    background-color: #eeeded;
 }
 
 table {
@@ -27,9 +28,66 @@ th {
 }
 
 .manha {
-    background-color: #ffeb3b; /* Amarelo para horários da manhã */
+    background-color: #ffeb3b;
 }
 
 .tarde {
-    background-color: #2196F3; /* Azul para horários da tarde */
+    background-color: #2196F3; 
+}
+
+.verde {
+    background-color: #2fb42f;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card button {
+    background: none;
+    border: 2px solid #2196F3;
+    border-radius: 10px;
+}
+.card button a {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+}
+
+
+  
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
 }
