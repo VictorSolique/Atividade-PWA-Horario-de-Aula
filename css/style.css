@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 1000px) {
+    table {
+        font-size: 12px;
+    }
+}
+
+.manha {
+    background-color: #ffeb3b; /* Amarelo para horários da manhã */
+}
+
+.tarde {
+    background-color: #2196F3; /* Azul para horários da tarde */
+}
