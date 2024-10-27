@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve ."
   },
-  "author": "victor solique",
+  "author": "victor solique e anabela",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.2.4"
